@@ -1,0 +1,51 @@
+
+main.css
+   2:1   ×  Expected empty line before comment                                                     comment-empty-line-before        
+   3:3   ×  Expected newline after ","                                                             selector-list-comma-newline-after
+   3:7   ×  Expected newline after ","                                                             selector-list-comma-newline-after
+   3:11  ×  Expected newline after ","                                                             selector-list-comma-newline-after
+   3:15  ×  Expected newline after ","                                                             selector-list-comma-newline-after
+   7:2   ×  Expected newline after ","                                                             selector-list-comma-newline-after
+   7:9   ×  Expected newline after ","                                                             selector-list-comma-newline-after
+  13:21  ×  Expected "#6495ED" to be "#6495ed"                                                     color-hex-case                   
+  17:21  ×  Expected "#FAEBD7" to be "#faebd7"                                                     color-hex-case                   
+  21:5   ×  Expected newline after ","                                                             selector-list-comma-newline-after
+  27:12  ×  Expected newline after ","                                                             selector-list-comma-newline-after
+  29:10  ×  Expected "#FAEBD7" to be "#faebd7"                                                     color-hex-case                   
+  52:1   ×  Expected selector "nav ul li a" to come before selector "header h1 a:visited"          no-descending-specificity        
+  52:1   ×  Expected empty line before rule                                                        rule-empty-line-before           
+  52:12  ×  Expected newline after ","                                                             selector-list-comma-newline-after
+  53:10  ×  Expected "#FAEBD7" to be "#faebd7"                                                     color-hex-case                   
+  56:1   ×  Expected empty line before rule                                                        rule-empty-line-before           
+  57:10  ×  Expected "#DEB887" to be "#deb887"                                                     color-hex-case                   
+  59:1   ×  Expected empty line before rule                                                        rule-empty-line-before           
+  70:1   ×  Expected selector "main a" to come before selector "header h1 a"                       no-descending-specificity        
+  70:1   ×  Expected selector "main a" to come before selector "header h1 a:visited"               no-descending-specificity        
+  70:1   ×  Expected selector "main a" to come before selector "nav ul li a"                       no-descending-specificity        
+  70:1   ×  Expected selector "main a" to come before selector "nav ul li a:visited"               no-descending-specificity        
+  70:1   ×  Expected selector "main a" to come before selector "nav ul li a:active"                no-descending-specificity        
+  70:1   ×  Expected selector "main a" to come before selector "nav ul li a:hover"                 no-descending-specificity        
+  70:7   ×  Expected newline after ","                                                             selector-list-comma-newline-after
+  70:9   ×  Expected selector "a:visited" to come before selector "header h1 a:visited"            no-descending-specificity        
+  70:9   ×  Expected selector "a:visited" to come before selector "nav ul li a:visited"            no-descending-specificity        
+  70:9   ×  Expected selector "a:visited" to come before selector "nav ul li a:active"             no-descending-specificity        
+  70:9   ×  Expected selector "a:visited" to come before selector "nav ul li a:hover"              no-descending-specificity        
+  71:10  ×  Expected "#6495ED" to be "#6495ed"                                                     color-hex-case                   
+  75:1   ×  Expected selector "main a:active" to come before selector "header h1 a:visited"        no-descending-specificity        
+  75:1   ×  Expected selector "main a:active" to come before selector "nav ul li a:visited"        no-descending-specificity        
+  75:1   ×  Expected selector "main a:active" to come before selector "nav ul li a:active"         no-descending-specificity        
+  75:1   ×  Expected selector "main a:active" to come before selector "nav ul li a:hover"          no-descending-specificity        
+  76:10  ×  Expected "#DEB887" to be "#deb887"                                                     color-hex-case                   
+  79:1   ×  Expected selector "main a:hover" to come before selector "header h1 a:visited"         no-descending-specificity        
+  79:1   ×  Expected selector "main a:hover" to come before selector "nav ul li a:visited"         no-descending-specificity        
+  79:1   ×  Expected selector "main a:hover" to come before selector "nav ul li a:active"          no-descending-specificity        
+  79:1   ×  Expected selector "main a:hover" to come before selector "nav ul li a:hover"           no-descending-specificity        
+  84:1   ×  Expected selector ".post-content h2 a" to come before selector "header h1 a:visited"   no-descending-specificity        
+  84:1   ×  Expected selector ".post-content h2 a" to come before selector "nav ul li a:visited"   no-descending-specificity        
+  84:1   ×  Expected selector ".post-content h2 a" to come before selector "nav ul li a:active"    no-descending-specificity        
+  84:1   ×  Expected selector ".post-content h2 a" to come before selector "nav ul li a:hover"     no-descending-specificity        
+  84:19  ×  Expected newline after ","                                                             selector-list-comma-newline-after
+  90:10  ×  Expected "#DEB887" to be "#deb887"                                                     color-hex-case                   
+  94:10  ×  Expected "#6495ED" to be "#6495ed"                                                     color-hex-case                   
+ 147:4   ×  Expected newline after ","                                                             selector-list-comma-newline-after
+

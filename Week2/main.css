@@ -1,0 +1,35 @@
+form h1 {
+    color: #009;
+}
+
+/* the ">" makes it so that only direct chilodren of article are affected */
+form > p {
+    font-size: 22px;
+}
+
+/* General sibling combinator */
+label ~ input {
+    display: block;
+    clear: both;
+}
+
+/* combines the universal selector (*) with a type selector */
+* + fieldset {
+    margin: 5em 0;
+}
+
+fieldset[title=fieldset2] > p + p {
+    background-color: orange;
+}
+
+.help::before {
+    content: '(';
+}
+
+.help::after {
+    content: ')';
+}
+
+fieldset p:nth-of-type(n+3) {
+    display: none;
+}

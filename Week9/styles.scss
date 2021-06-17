@@ -1,0 +1,169 @@
+@import 'typography';
+@import 'icons';
+
+$sm-break: 48em;
+// colors
+$dark-gray: #727272;
+$med-gray: #b4b3b5;
+$light-gray: #eaeaea;
+$body-font: #020202;
+$link-blue: #0076b6; //why do we have both of these blues?
+$byui-blue: #056cb6;
+
+// Utility classes
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+main {
+  margin: 0 15px;
+  padding: 0;
+}
+
+.site-banner {
+  background-color: $byui-blue;
+  height: 3.5em;
+  display: grid;
+  grid-template-columns: 1fr 4fr 2.5fr;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.site-banner__left {
+  grid-column: 1 / 2;
+}
+
+.site-banner__right {
+  grid-column: 3 / 4;
+}
+
+#searchDesktop,
+header button {
+  display: none;
+}
+
+.icon-search,
+.icon-audience,
+.icon-menu {
+  font-size: 200%;
+  display: inline;
+}
+
+.icon-byui-logo {
+  font-size: 180%;
+  background-color: $body-font;
+  padding: .62em;
+  margin: 0;
+  align-content: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.byui-title {
+  height: 3.5em;
+  text-align: center;
+  background-color: $light-gray;
+  padding: .1em 0;
+  border-bottom: $body-font 1px solid;
+}
+
+.main-img {
+  width: 100%;
+  max-width: 100%;
+  margin: 30px 0 20px 0;
+}
+
+.image-with-link figure {
+  margin: 15px 0;
+  border: 1px solid $med-gray;
+}
+
+.image-with-link figcaption{
+  background-color: white;
+  color: $link-blue;
+  padding: .5em;
+  a {
+    color: $link-blue;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $link-blue;
+  }
+}
+
+.resources {
+  margin: 20x 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr repeat(6, .75fr);
+}
+
+.resources h2 {
+  background-color: $dark-gray;
+  color: white;
+  padding: 10px 0 10px 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  grid-row: 1 / 2;
+}
+
+.resources a {
+  color: $link-blue;
+  text-decoration: none;
+  grid-auto-rows: auto;
+  border: $dark-gray 1px solid;
+  border-top: none;
+  padding: 10px 0 10px 20px;
+  height: 36px;
+  margin: 0;
+}
+
+.resources a:hover {
+  background-color: $light-gray;
+}
+
+.important-dates {
+  margin: 20px 0;
+}
+
+.important-dates h2 {
+  background-color: $byui-blue;
+  color: white;
+  padding: 10px 0 10px 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.important-dates table tr {
+  border-bottom: 1px solid $dark-gray;
+  padding: 5px 10px;
+  :hover {
+    background-color: $light-gray;
+  }
+}
+
+@media screen and (min-width: $sm-break) {
+  
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* FOR SMALL SCREENS & GENERAL CSS */
+h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+p, ul li, div {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: .95em;
+}
+
+header {
+    background-color: #6495ED;
+    
+}
+
+main {
+    background-color: #FAEBD7;
+    padding-top: 1em;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}  
+
+/* HEADER */
+header h1 a, header h1 a:visited {
+    font-family: 'Lora', serif;
+    color: #FAEBD7;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: right;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    margin-top: 0;
+}
+
+hr {
+    margin-left: 1.75em;
+    margin-right: 1.75em;
+}
+
+/* NAV */
+nav ul li {
+    list-style-type: none;
+    padding-bottom: .75em;
+    padding-right: 2em;
+}
+
+nav ul li a, nav ul li a:visited {
+    color: #FAEBD7;
+    text-decoration: none;
+}
+
+nav ul li a:active {
+    color: #DEB887;
+    
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+nav {
+    text-align: right;
+    padding-bottom: 1em;
+}
+
+/* LINKS */
+main a, a:visited {
+    color: #6495ED;
+    text-decoration: none;
+}
+
+main a:active {
+    color: #DEB887;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* ARTICLE TITLE LINKS */
+.post-content h2 a, .post-content h2 a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.post-content h2 a:active {
+    color: #DEB887;
+}
+
+.post-content h2 a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
+
+/* ARTICLE SECTIONS */
+article {
+    background-color: white;
+    margin: 15px;
+    padding: 2em;
+    box-shadow: 5px 10px 5px lightgray;
+}
+
+.post-content figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* FOR LARGE SCREENS */
+@media only screen and (min-width: 65em) {
+
+    header {
+        height: 100%;
+        width: 20%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        padding-top: 3em;
+    }
+
+    main {
+        width: 80%;
+        position: fixed;
+        top: 0;
+        left: 20%;
+    }
+
+    /* ARTICLE SECTIONS */
+    article {
+        margin: 50px 75px;
+        padding: 2em;
+        box-shadow: 5px 10px 5px lightgray;
+    }
+
+    .post-content figure img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4em;
+        width: 45%;
+    }
+
+    p, div {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1em;
+        margin: .7em 2em;
+    }
+
+    ul li {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1em;
+    }
+
+    /* ARTICLE TITLE LINKS */
+    .post-content h2 a {
+        font-size: larger;
+        margin-left: 1em;
+    }
+
+}
